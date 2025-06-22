@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace 'com.hissain.android.demo.sensordatacollector'
-    compileSdk 35
+    compileSdk 34
 
     viewBinding {
         enabled = true
