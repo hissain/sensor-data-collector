@@ -31,21 +31,5 @@
             </intent-filter>
         </service>
 
-        <!--
-               Set to true if your app is Standalone, that is, it does not require the handheld
-               app to run.
-        -->
-        <meta-data
-            android:name="com.google.android.wearable.standalone"
-            android:value="true" />
-
-        <uses-library
-            android:name="com.google.android.wearable"
-            android:required="true" />
     </application>
-
-    <uses-feature android:name="android.hardware.type.watch" />
-
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
-
 </manifest>
