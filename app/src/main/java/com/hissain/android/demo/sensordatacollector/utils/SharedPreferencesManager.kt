@@ -8,7 +8,7 @@ import com.hissain.android.demo.sensordatacollector.model.UserProfile
 class SharedPreferencesManager(context: Context) {
 
     private val prefs: SharedPreferences = context.getSharedPreferences(
-        "hotflash_prefs", Context.MODE_PRIVATE
+        "sensor_data_prefs", Context.MODE_PRIVATE
     )
 
     fun saveUserProfile(profile: UserProfile) {

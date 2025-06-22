@@ -2,10 +2,10 @@ package com.hissain.android.demo.sensordatacollector.wear.config
 
 object Configuration {
     // App Constants
-    const val APP_NAME = "HotFlash Watch"
+    const val APP_NAME = "Sensor Data Collector"
 
     // Data Layer API Constants
-    const val WEAR_DATA_PATH = "/hotflash_data"
+    const val WEAR_DATA_PATH = "/sensor_data"
     const val COMMAND_PATH = "/commands"
     const val STATUS_PATH = "/status"
 

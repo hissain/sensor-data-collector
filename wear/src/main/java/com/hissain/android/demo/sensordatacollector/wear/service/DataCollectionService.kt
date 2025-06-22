@@ -166,7 +166,7 @@ class DataCollectionService : Service() {
 
     private fun createNotification(contentText: String = "Ready to collect data"): Notification {
         return NotificationCompat.Builder(this, Configuration.NOTIFICATION_CHANNEL_ID)
-            .setContentTitle("HotFlash Data Collection")
+            .setContentTitle("Sensor Data Collection")
             .setContentText(contentText)
             .setSmallIcon(R.drawable.splash_icon)
             .setOngoing(true)
