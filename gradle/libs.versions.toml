@@ -12,6 +12,7 @@ runtimeAndroid = "1.5.0"
 appcompat = "1.7.1"
 activityKtx = "1.8.0"
 constraintlayout = "2.2.1"
+fragment = "1.5.4"
 
 [libraries]
 play-services-wearable = { group = "com.google.android.gms", name = "play-services-wearable", version.ref = "playServicesWearable" }
@@ -30,6 +31,7 @@ runtime-android = { group = "androidx.compose.runtime", name = "runtime-android"
 appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 activity-ktx = { group = "androidx.activity", name = "activity-ktx", version.ref = "activityKtx" }
 constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+fragment = { group = "androidx.fragment", name = "fragment", version.ref = "fragment" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
